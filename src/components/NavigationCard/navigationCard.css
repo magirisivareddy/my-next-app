@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+    border-radius: 0.25rem;
+   
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    background-image: linear-gradient(to right, #f9b562 0%, #f07d45 100%);
+    color: white;
+  
+}
